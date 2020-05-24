@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fale Conosco · Deliverizzy</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a href="../../index.html">
+                <h4 class="my-0 mr-md-auto font-weight-normal text-light">Deliverizzy</h4>
+            </a>
+            <button class="navbar-toggler text-light border-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../../images/hamburguer-menu.svg" width="20" height="20" class="d-inline-block align-top" alt="Menu" loading="lazy">
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end text-light" id="navbarSupportedContent">
+                Conta do lojista
+                <img src="../../images/identicon1.PNG" width="30" height="30" class="d-inline-block align-top mx-4" alt="Menu" loading="lazy">
+                <nav class="my-2 my-md-0 mr-md-3 my-lg-0">
+                    <a class="btn btn-outline-light" href="../login.html">Sair</a>
+                </nav>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row" style="height: 100vh;">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="sidebar-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="./lojista.html">
+                                    Solicitar Entrega
+                                </a>
+                            </li>
+
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="./lojista-entregas.html">
+                                    Entregas
+                                </a>
+                            </li>
+
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="./lojista-perfil.html">
+                                    Perfil
+                                </a>
+                            </li>
+
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="./lojista-fale-conosco.html">
+                                    Fale Conosco
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pl-4 pt-4 pb-5">
+                    <h1 class="mb-4">Fale Conosco</h1>
+
+                    <p>Entre em contato conosco através do formulário abaixo para tirar uma dúvida sobre a plataforma, conseguir assistência técnica, ou corrigir algum problema de pagamento que tenha acontecido. </p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Assunto da mensagem</label>
+                            <input type="NomeEmpresa" class="form-control" id="exampleInputEmail1" aria-describedby="NomeEmpresa">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <button onclick="enviarMensagem()" type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+
+        <script src="../../js/enviarMensagem.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
