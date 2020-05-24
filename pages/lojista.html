@@ -64,69 +64,84 @@
                 </nav>
 
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pl-4 pt-4 pb-5">
-                    <h1>Solicitar Entrega</h1>
+                    <div id="panel1">
+                        <h1>Solicitar Entrega</h1>
 
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Tamanho em metros quadrados do produto</label>
-                            <input type="tamanho" class="form-control" id="tamanho" aria-describedby="tamanho">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Peso do produto</label>
-                            <input type="peso" class="form-control" id="peso">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Valor do produto</label>
-                            <input type="valor" class="form-control" id="valor">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Endereço de entrega</label>
-                            <input type="endereco" class="form-control" id="endereco">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Estado de entrega</label>
-                            <input type="estado" class="form-control" id="estado">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Cidade de entrega</label>
-                            <input type="cidade" class="form-control" id="cidade">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">CEP de entrega</label>
-                            <input type="cep" class="form-control" id="cep">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">
-                                Urgência de entrega
-                            </label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Rápida</option>
-                                <option>Normal</option>
-                                <option>Lenta</option>
-                            </select>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Tamanho em metros quadrados do produto</label>
+                                <input type="tamanho" class="form-control" id="tamanho" aria-describedby="tamanho">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Peso do produto</label>
+                                <input type="peso" class="form-control" id="peso">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Valor do produto</label>
+                                <input type="valor" class="form-control" id="valor">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Endereço de entrega</label>
+                                <input type="endereco" class="form-control" id="endereco">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Estado de entrega</label>
+                                <input type="estado" class="form-control" id="estado">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Cidade de entrega</label>
+                                <input type="cidade" class="form-control" id="cidade">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">CEP de entrega</label>
+                                <input type="cep" class="form-control" id="cep">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">
+                                    Urgência de entrega
+                                </label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Rápida</option>
+                                    <option>Normal</option>
+                                    <option>Lenta</option>
+                                </select>
+                            </div>
 
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary" onclick="orcamento(event)">
-                                Confirmar
-                            </button>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary" onclick="orcamento(event)">
+                                    Confirmar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="panel2" style="display: none;">
+                        <p class="pt-5">Buscando entregador...</p>
+
+                        <img class="my-4 mx-3 pt-3" src="../images/loading.gif" alt="tela de loading" width="50">
+                    </div>
+
+                    <div id="panel3" style="display: none;">
+                        <h1 class="h3 pt-2">Entregador Encontrado</h1>
+
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex flex-column">
+                                <img class="my-4 mx-3" src="../images/lenna.jpg" alt="" width="150" height="150">
+
+                                <h2 class="h5">Nome:</h2>
+                                <p>Lena Forsén</p>
+
+                                <h2 class="h5">Veiculo:</h2>
+                                <p>Honda Civic Sedan</p>
+                            </div>
+
+                            <div>
+                                <img class="my-4 mx-3 text-center" src="../images/mapa.PNG" alt="mapa" width="450px">
+                                <h3 class="h5">Tempo para entrega</h3>
+                                <p>20 min</p>
+                            </div>
                         </div>
-                    </form>
-
-                    <p class="pt-5">Buscando entregador...</p>
-
-                    <h1 class="h3 pt-2">Entregador Encontrado</h1>
-
-                    <div class="d-flex justify-content-center">
-                        <img class="my-4 mx-3 text-center" src="../images/lenna.jpg" alt="" width="150" height="150">
-
-                        <div class="my-4 mx-3">
-                            <h2 class="h5">Nome:</h2>
-                            <p>Lena Forsén</p>
-
-                            <h2 class="h5">Veiculo:</h2>
-                            <p>Honda Civic Sedan</p>
-                        </div>
+                    </div>
                 </main>
             </div>
         </div>
