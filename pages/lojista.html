@@ -32,12 +32,6 @@
                         <ul class="nav flex-column">
                             <li class="pt-2 nav-item">
                                 <a class="nav-link text-dark text-uppercase" href="./lojista.html">
-                                    Solicitar Orçamento
-                                </a>
-                            </li>
-
-                            <li class="pt-2 nav-item">
-                                <a class="nav-link text-dark text-uppercase" href="#">
                                     Solicitar Entrega
                                 </a>
                             </li>
@@ -70,7 +64,7 @@
                 </nav>
 
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pl-4 pt-4 pb-5">
-                    <h1>Solicitar Orçamento</h1>
+                    <h1>Solicitar Entrega</h1>
 
                     <form>
                         <div class="form-group">
@@ -113,11 +107,26 @@
                         </div>
 
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary" onclick="orcamento()">
-                                Solicitar Orçamento
+                            <button type="submit" class="btn btn-primary" onclick="orcamento(event)">
+                                Confirmar
                             </button>
                         </div>
                     </form>
+
+                    <p class="pt-5">Buscando entregador...</p>
+
+                    <h1 class="h3 pt-2">Entregador Encontrado</h1>
+
+                    <div class="d-flex justify-content-center">
+                        <img class="my-4 mx-3 text-center" src="../images/lenna.jpg" alt="" width="150" height="150">
+
+                        <div class="my-4 mx-3">
+                            <h2 class="h5">Nome:</h2>
+                            <p>Lena Forsén</p>
+
+                            <h2 class="h5">Veiculo:</h2>
+                            <p>Honda Civic Sedan</p>
+                        </div>
                 </main>
             </div>
         </div>
