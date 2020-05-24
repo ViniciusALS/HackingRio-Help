@@ -1,5 +1,6 @@
 # Deliverizzy - 2020
-### STONKS / Vertical Logística - Como melhorar a eficiência operacional do sistema atual de entregas?
+## STONKS / Vertical Logística
+### Como melhorar a eficiência operacional do sistema atual de entregas?
 
 #### Apresentação
 
