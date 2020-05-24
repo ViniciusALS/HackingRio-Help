@@ -25,60 +25,98 @@
             </div>
         </nav>
 
-        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style="height: 100vh;">
-            <div class="sidebar-sticky pt-3">
-                <ul class="nav flex-column">
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link active text-dark text-uppercase" href="#">
-                            <span data-feather="home"></span>
-                            Dashboard
-                        </a>
-                    </li>
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="sidebar-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="./lojista.html">
+                                    Solicitar Orçamento
+                                </a>
+                            </li>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="./lojista-orcamento.html">
-                            <span data-feather="shopping-cart"></span>
-                            Solicitar Orcamento
-                        </a>
-                    </li>
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="#">
+                                    Solicitar Entrega
+                                </a>
+                            </li>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="#">
-                            <span data-feather="bar-chart-2"></span>
-                            Solicitar Entrega
-                        </a>
-                    </li>
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="#">
+                                    Entregas
+                                </a>
+                            </li>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="#">
-                            <span data-feather="users"></span>
-                            Entregas
-                        </a>
-                    </li>
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="#">
+                                    Requesitar Devolucao
+                                </a>
+                            </li>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="#">
-                            <span data-feather="layers"></span>
-                            Requesitar Devolucao
-                        </a>
-                    </li>
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="#">
+                                    Perfil
+                                </a>
+                            </li>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="#">
-                            <span data-feather="file"></span>
-                            Perfil
-                        </a>
-                    </li>
+                            <li class="pt-2 nav-item">
+                                <a class="nav-link text-dark text-uppercase" href="#">
+                                    Fale Conosco
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
-                    <li class="pt-2 nav-item">
-                        <a class="nav-link text-dark text-uppercase" href="#">
-                            <span data-feather="layers"></span>
-                            Fale Conosco
-                        </a>
-                    </li>
-                </ul>
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pl-4 pt-4 pb-5">
+                    <h1>Solicitar Orçamento</h1>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Tamanho em metros quadrados do produto</label>
+                            <input type="tamanho" class="form-control" id="tamanho" aria-describedby="tamanho">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Peso do produto</label>
+                            <input type="peso" class="form-control" id="peso">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Valor do produto</label>
+                            <input type="valor" class="form-control" id="valor">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Estado de entrega</label>
+                            <input type="estado" class="form-control" id="estado">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Cidade de entrega</label>
+                            <input type="cidade" class="form-control" id="cidade">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Endereço de entrega</label>
+                            <input type="endereco" class="form-control" id="endereco">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">CEP de entrega</label>
+                            <input type="cep" class="form-control" id="cep">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Urgencia da entrega</label>
+                            <input type="urgencia" class="form-control" id="urgencia">
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" onclick="orcamento()">
+                                Solicitar Orçamento
+                            </button>
+                        </div>
+                    </form>
+                </main>
             </div>
-        </nav>
+        </div>
+
+        <script src="../js/orcamento.js"></script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
