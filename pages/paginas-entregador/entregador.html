@@ -61,60 +61,69 @@
                     <div id="panel1">
                         <h1>Dashboard</h1>
 
-                        <h2>GPS</h2>
+                        <h2 class="mt-5 mb-3">GPS</h2>
 
                         <iframe width="600" height="400" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=R.%20Jardim%20Bot%C3%A2nico%2C%20700%20-%20Jardim%20Bot%C3%A2nico+(Stonks)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
-                        <h2>Entragas perto de você</h2>
+                        <h2 class="mt-5 mb-3">Entregas perto de você</h2>
 
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Tamanho em metros quadrados do produto</label>
-                                <input type="tamanho" class="form-control" id="tamanho" aria-describedby="tamanho">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Peso do produto</label>
-                                <input type="peso" class="form-control" id="peso">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Valor do produto</label>
-                                <input type="valor" class="form-control" id="valor">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Endereço de entrega</label>
-                                <input type="endereco" class="form-control" id="endereco">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Estado de entrega</label>
-                                <input type="estado" class="form-control" id="estado">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Cidade de entrega</label>
-                                <input type="cidade" class="form-control" id="cidade">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">CEP de entrega</label>
-                                <input type="cep" class="form-control" id="cep">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">
-                                    Urgência de entrega
-                                </label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>Rápida</option>
-                                    <option>Normal</option>
-                                    <option>Lenta</option>
-                                </select>
-                            </div>
-
-                            <div class="text-center">
-                                <button
-                                    class="btn btn-primary" onclick="orcamento(event)">
-                                    Confirmar
-                                </button>
-                            </div>
-                        </form>
-                    </>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <strong>Rua Feijao com Arroz</strong>
+                                <span>1,8km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Grande</span>
+                                    <span class="btn btn-outline-secondary">Peso Médio</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Rua do Hackthon</strong>
+                                <span>0,8km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Médio</span>
+                                    <span class="btn btn-outline-secondary">Peso Médio</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Rua Engraçada Com Muito Esmero</strong>
+                                <span>0,6km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Pequeno</span>
+                                    <span class="btn btn-outline-secondary">Peso Pequeno</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Rua da Amizade</strong>
+                                <span>1,1km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Grande</span>
+                                    <span class="btn btn-outline-secondary">Peso Grande</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Rua Esquisita</strong>
+                                <span>0,2km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Grande</span>
+                                    <span class="btn btn-outline-secondary">Peso Pequeno</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Rua Segredo da Vida e do Universo</strong>
+                                <span>4.2km</span>
+                                <div class="float-right">
+                                    <span class="btn btn-outline-secondary">Volume Pequeno</span>
+                                    <span class="btn btn-outline-secondary">Peso Grande</span>
+                                    <a class="btn btn-primary text-light">Aceitar Pedido</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
                     <div id="panel2" class="text-center" style="display: none; height: 100vh;">
                         <p class="pt-5">Buscando entregador...</p>
