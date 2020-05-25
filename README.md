@@ -4,14 +4,18 @@
 
 #### Apresentação
 
-Após perceber que diversos empresas, do dia para a noite, estão precisando migrar seus modelos de negócios para o mundo digital e adquirir toda uma infraestrutura para realizar entregas, decidimos criar uma plataforma onde as empresas possam registrar seus catálogos de produtos e terem acesso a um sistema de entrega similar ao do uber onde um “match” inteligente irá unir as empresas com os entregadores.
-O sistema de “match” inteligente não só será capaz de juntar os entregadores que permitam entregas mais rápidas quanto também será capaz de respeitar a capacidade do veículo de percorrer longas distâncias e carregar cargas grandes.
+O Deliverzzy é um sistema inovador que irá mudar o mundo das entregas. 
+
+Praticamente todas as  lojas foram afetadas pela situação atual da quarentena, principalmente pequenas empresas que não conseguem arcar com uma frota especializada para as entregas de seus produtos, e  ficam dependentes da demorada entrega que os correio disponibiliza.
+
+Nossa solução, através de uma frota de baixo custo de motoristas parceiros, será capaz de cobrir essa necessidade de forma rápida e barata. Realizando um "matching" inteligente entre motoristas e rotas de entrega para garantir o uso mais eficiente do veículo do entregador.
+
 
 #### O Produto
 
-Entre em mais detalhes sobre seu produto, levantando pontos positivos, o porquê dele ser inovador e como ele ajuda o Brasil e o mundo no combate e minimização de danos causados pela COVID-19.
+O COVID obrigou vários negócios no Brasil e no mundo a mudarem seus modelos de negócios para entregas através da internet. Essa mudança repentina é complicada e cara, levando diversos pequenos e médios negócios a falência por não serem capazes de se adaptar à nova situação. 
 
-#### Informações adicionais
+Nosso produto garante uma solução para esses negócios. Através de uma aplicação web, e futuramente um aplicativo, nós desenvolvemos uma ferramenta onde empresas podem solicitar serviços de entrega rápida e motoristas independentes podem se registrar para fazer parte da nossa frota de entregadores.
 
-Forneça informações adicionais, adicione novos tópicos ou subtópicos. Use esse arquivo como um guia rápido para manter claro os objetivos de seu projeto para os demais integrantes. Manter o foco conjunto de forma coesa lhe ajudará a criar um produto mais *sólido*.
+A ferramenta então, de forma inteligente conecta os entregadores a as melhores rotas possíveis, maximizando o número de cargas sendo transportadas dentro do veículo e reduzindo o tempo de entregas por combinar os motorista que estava o mais próximos possível da rota necessária.
 
